@@ -2,6 +2,12 @@
   <head>
     <title>My Webpage</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      var randomNumber = Math.floor(Math.random() * 3);
+      var phrases = [`Hello`,`Hi`,`Hallo`];
+      console.log(phrases[randomNumber]);
+    </script>
   </head>
   <body>
     <div id = "content">
@@ -10,15 +16,18 @@
       </div>
       <div class="segment">
         <a href="game.html">Play meh game bru</a>
-        <img src="img/images.jpg" alt="">
+        <img src="img/images.jpg" class="leftimg">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin arcu velit, laoreet vitae enim vel, laoreet mattis neque. Integer eget ornare purus. Pellentesque ut sodales mi. Aliquam ac tortor vestibulum, posuere nibh in, aliquam sapien. Fusce odio tellus, scelerisque ut sapien nec, tempor scelerisque sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra quis felis et efficitur. Aliquam facilisis nisi massa. Duis fermentum sodales interdum.
           Aenean porta, ante non efficitur sollicitudin, erat ipsum dictum mi, nec sagittis enim mi eget erat. Suspendisse bibendum lobortis varius. In dignissim mollis urna, eu pellentesque nibh molestie quis. Nunc neque est, sodales nec condimentum vel, convallis non sem. Vivamus dignissim consequat arcu, rutrum ultricies sem auctor ac. Donec nec ipsum a ipsum feugiat fringilla ut a nibh. Fusce gravida est elit, vel sollicitudin diam auctor vel. Aliquam vitae sollicitudin purus. Sed eu venenatis tellus. Sed magna lectus, molestie vel accumsan et, tempor at lorem. Cras at mauris nec nibh congue tristique. Nunc id mollis nibh. Nullam et vulputate orci, eget eleifend quam.
         </p>
-        <img src="img/sloth.jpg" class="centerimg">
+        <img src="img/sloth.jpg" class="rightimg">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin arcu velit, laoreet vitae enim vel, laoreet mattis neque. Integer eget ornare purus. Pellentesque ut sodales mi. Aliquam ac tortor vestibulum, posuere nibh in, aliquam sapien. Fusce odio tellus, scelerisque ut sapien nec, tempor scelerisque sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra quis felis et efficitur. Aliquam facilisis nisi massa. Duis fermentum sodales interdum.
           Aenean porta, ante non efficitur sollicitudin, erat ipsum dictum mi, nec sagittis enim mi eget erat. Suspendisse bibendum lobortis varius. In dignissim mollis urna, eu pellentesque nibh molestie quis. Nunc neque est, sodales nec condimentum vel, convallis non sem. Vivamus dignissim consequat arcu, rutrum ultricies sem auctor ac. Donec nec ipsum a ipsum feugiat fringilla ut a nibh. Fusce gravida est elit, vel sollicitudin diam auctor vel. Aliquam vitae sollicitudin purus. Sed eu venenatis tellus. Sed magna lectus, molestie vel accumsan et, tempor at lorem. Cras at mauris nec nibh congue tristique. Nunc id mollis nibh. Nullam et vulputate orci, eget eleifend quam.
         </p>
-      </div>
+        <div class="segment">
+          <a href="game.html">Play meh game bru</a>
+        </div>
+        </div>
       </div>
   </body>
 </html>

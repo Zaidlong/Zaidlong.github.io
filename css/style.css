@@ -1,0 +1,37 @@
+body{
+  font-family: Dnagermode, Calibri, Arial;
+  background-image: linear-gradient(#0066ff,#00ccff);
+}
+h1{
+  font-family: Candara, Calibri, Arial;
+  text-align: center;
+}
+#content {
+  margin: auto;
+  width: 500px;
+  text-align: justify;
+}
+.segment{
+  border: 3px double #000000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+p {
+  margin-top:0px;
+}
+/*
+the following only selects imgs inside of the segment class
+*/
+.segment img {
+  max-width: 200px;
+  margin: 0px 7px 7px 0px;
+}
+.segment .rightimg {
+  float: right;
+  margin-right: 10px;
+}
+
+.segment .leftimg {
+  float: left;
+  margin-left: 10px;
+}
