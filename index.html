@@ -1,33 +1,62 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <title>My Webpage</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Final</title>
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript">
-      var randomNumber = Math.floor(Math.random() * 3);
-      var phrases = [`Hello`,`Hi`,`Hallo`];
-      console.log(phrases[randomNumber]);
-    </script>
+    function openNav() {
+      var navBox = document.getElementById('menu')
+      navBox.style.display = 'block';
+    }
+    function closeNav() {
+      var navBox = document.getElementById('menu')
+      navBox.style.display = 'none';
+    }
+  </script>
   </head>
   <body>
-    <div id = "content">
-      <div id ="headerBox">
-        <h1>My Weebpage</h1>
+    <h1>
+    <div id="openMenu" onclick="openNav()">
+      ☰
+    </div>
+    <div id="menu">
+      <div id ="closeMenu" class="menuItem" onclick="closeNav()">
+        <a href="#">Close Menu</a>
       </div>
-      <div class="segment">
-        <a href="game.html">Play meh game bru</a>
-        <img src="img/images.jpg" class="leftimg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin arcu velit, laoreet vitae enim vel, laoreet mattis neque. Integer eget ornare purus. Pellentesque ut sodales mi. Aliquam ac tortor vestibulum, posuere nibh in, aliquam sapien. Fusce odio tellus, scelerisque ut sapien nec, tempor scelerisque sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra quis felis et efficitur. Aliquam facilisis nisi massa. Duis fermentum sodales interdum.
-          Aenean porta, ante non efficitur sollicitudin, erat ipsum dictum mi, nec sagittis enim mi eget erat. Suspendisse bibendum lobortis varius. In dignissim mollis urna, eu pellentesque nibh molestie quis. Nunc neque est, sodales nec condimentum vel, convallis non sem. Vivamus dignissim consequat arcu, rutrum ultricies sem auctor ac. Donec nec ipsum a ipsum feugiat fringilla ut a nibh. Fusce gravida est elit, vel sollicitudin diam auctor vel. Aliquam vitae sollicitudin purus. Sed eu venenatis tellus. Sed magna lectus, molestie vel accumsan et, tempor at lorem. Cras at mauris nec nibh congue tristique. Nunc id mollis nibh. Nullam et vulputate orci, eget eleifend quam.
-        </p>
-        <img src="img/sloth.jpg" class="rightimg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin arcu velit, laoreet vitae enim vel, laoreet mattis neque. Integer eget ornare purus. Pellentesque ut sodales mi. Aliquam ac tortor vestibulum, posuere nibh in, aliquam sapien. Fusce odio tellus, scelerisque ut sapien nec, tempor scelerisque sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra quis felis et efficitur. Aliquam facilisis nisi massa. Duis fermentum sodales interdum.
-          Aenean porta, ante non efficitur sollicitudin, erat ipsum dictum mi, nec sagittis enim mi eget erat. Suspendisse bibendum lobortis varius. In dignissim mollis urna, eu pellentesque nibh molestie quis. Nunc neque est, sodales nec condimentum vel, convallis non sem. Vivamus dignissim consequat arcu, rutrum ultricies sem auctor ac. Donec nec ipsum a ipsum feugiat fringilla ut a nibh. Fusce gravida est elit, vel sollicitudin diam auctor vel. Aliquam vitae sollicitudin purus. Sed eu venenatis tellus. Sed magna lectus, molestie vel accumsan et, tempor at lorem. Cras at mauris nec nibh congue tristique. Nunc id mollis nibh. Nullam et vulputate orci, eget eleifend quam.
-        </p>
-        <div class="segment">
-          <a href="game.html">Play meh game bru</a>
-        </div>
-        </div>
+      <div class="menuItem">
+        <a href="index.html">Home</a>
       </div>
+      <div class="menuItem">
+        <a href="game.html">Get to school</a>
+      </div>
+      <div class="menuItem">
+        <a href="JSFighter-Target--master/JSFighter.html">JSFighter</a>
+      </div>
+    </div>
+  </h1>
+    <img id='duckimg' src="images.png">
+    <h2>
+      A random fact about ducks!
+    </h2>
+    <h3>
+      Ducks have accents. City ducks have a differnet accent than country ducks,
+       usuallly louder!
+    </h3>
+    <h4>
+      There are many interesting things about ducsk that we know so much about!
+      For example, did you know that a ducks can sleep with one eye open?
+    </h4>
+    <h5>
+      Ducks also help the enviornment!
+    </h5>
+    <p>
+      There are many ways that ducks help the enviornment. One of the many is
+      that ducks help create passages for fish that opens up wetlands. They also
+      sometimes transport seeds from one place to another. They are good for us
+      and they also have some pretty cool facts that not too many people knew
+      about.
+    </p>
   </body>
 </html>
